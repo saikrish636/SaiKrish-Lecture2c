@@ -38,6 +38,18 @@
             <button id="menu-signout" class="btn btn-outline-danger">Sign Out</button>
           </li>
         </ul>
+
+        <div class="dropdown modal-postauth">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            My Sort
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><button class="btn btn-primary" id="dropdown-item-name" href="#">Product Name(Descending)</button></li>
+            <li><button class="btn btn-secondary" id="dropdown-item-price" href="#">Product Price(Ascending)</button></li>
+          </ul>
+        </div>
+
         <div class="modal-postauth">
           <form id="form-search" class="d-flex">
             <input name="searchKeys" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
